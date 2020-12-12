@@ -25,3 +25,7 @@ html {
 .navbar-item:hover {
     font-weight: bold;
 }
+
+.hgt-5 {
+    height: 5vh;
+}
