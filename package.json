@@ -1,0 +1,27 @@
+{
+  "name": "nosox-website",
+  "version": "1.0.0",
+  "description": "Website for NoSoX NC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/**/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhellerm/dhellerm.github.io.git"
+  },
+  "keywords": [],
+  "author": "Daniel Hellerman",
+  "license": "BSD-2-Clause-Patent",
+  "bugs": {
+    "url": "https://github.com/dhellerm/dhellerm.github.io/issues"
+  },
+  "homepage": "https://github.com/dhellerm/dhellerm.github.io#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "bulma": "^0.9.1"
+  }
+}

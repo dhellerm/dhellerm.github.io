@@ -1,0 +1,27 @@
+* {
+    font-family: "Josefin Sans", "Arial", sans-serif;
+}
+
+.centered {
+    text-align: center;
+}
+
+.bg-nc {
+    background-color: #9CBFD8;
+}
+
+body {
+    min-height: 100vh;
+}
+
+html {
+    overflow: auto;
+}
+
+.is-active {
+    font-weight: bold;
+}
+
+.navbar-item:hover {
+    font-weight: bold;
+}

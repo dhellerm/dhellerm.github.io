@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../../node_modules/bulma/css/bulma.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+
+    <title>Route &bull; NoSoX NC</title>
+    <link rel="icon" href="/icon.png">
+    <meta charset="utf-8">
+    <meta name="author" content="Daniel Hellerman">
+    <meta name="description"
+        content="The route viewer for NoSoX NC, an annual 150-mile community bike ride across North Carolina">
+    <meta name="theme-color" content="#9CBFD8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bg-nc">
+
+    <nav class="navbar bg-nc is-transparent" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://nosox.net/">
+                <figure class="image is-32x32">
+                    <img src="/icon.png">
+                </figure>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbar" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="/">
+                    Home
+                </a>
+
+                <a class="navbar-item" href="/info">
+                    Info
+                </a>
+
+                <a class="navbar-item is-active" href="/route">
+                    Route
+                </a>
+
+                <a class="navbar-item" href="/contact">
+                    Contact
+                </a>
+
+                <a class="navbar-item" href="/history">
+                    History
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <h1 class="title is-3 centered">
+            NoSoX NC Route
+        </h1>
+        <h3 class="title is-5 centered">
+            The route follows low-traffic backroads through the Central Carolina/Piedmont region. It goes from Milton,
+            NC to Gisbon, NC. View it below.
+        </h3>
+    </section>
+    <section class="section">
+        <div class="container">
+            <iframe src="https://ridewithgps.com/embeds?type=route&id=32406872&title=NoSoX%20Route&sampleGraph=true"
+                style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
+        </div>
+    </section>
+
+    <script src="/navbar.js"></script>
+</body>
+
+</html>
