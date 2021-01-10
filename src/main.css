@@ -29,3 +29,11 @@ html {
 .hgt-5 {
     height: 5vh;
 }
+
+.border-nc {
+    border-color: #9CBFD8;
+}
+
+.width-40 {
+    width: 40%;
+}

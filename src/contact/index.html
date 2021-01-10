@@ -64,22 +64,73 @@
         </div>
     </nav>
 
-    <section class="section is-medium">
-        <div class="container is-flex-direction-column is-flex">
-            <h1 class="title is-1 centered">Contact</h1>
+    <section class="section">
+        <h1 class="title is-1 centered">Contact</h1>
 
+        <div class="container is-flex-direction-column is-flex">
             <p class="is-size-3">Our Email: <img src="/email.png" class="hgt-5"></p>
 
-            <p class="is-size-4">Email us if you plan to join the ride!</p>
-            <p class="is-size-4">If you've signed up we can contact you with NoSoX NC news, help you get in touch with
+            <p class="is-size-4">If you sign up, we can contact you with NoSoX NC news, help you get in touch with
                 other riders, etc.</p>
-            <hr class="has-background-black">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h1 class="title is-1 centered">Sign Up</h1>
+
+            <form name="signup" method="POST" netlify action="/form-success" class="mx-2">
+
+                <div class="field">
+                    <label class="label is-large">I will...</label>
+
+                    <div class="control">
+                        <div class="select is-medium">
+                            <select name="participation border-nc">
+                                <option>definitely participate</option>
+                                <option>participate if the training goes well</option>
+                                <option>participate if COVID won't be an issue</option>
+                                <option>probably not participate, but never say "never"</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label is-large">My email is...</label>
+
+                    <div class="control is-medium">
+                        <input class="input width-40" type="email" placeholder="me@example.com" name="email" required>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label is-large">My name is...</label>
+
+                    <div class="control is-medium">
+                        <input class="input width-40" type="text" placeholder="John Doe" name="name" required>
+                    </div>
+                </div>
+
+                <input class="button my-6 is-large" type="submit" value="Submit">
+
+            </form>
+        </div>
+    </section>
+
+    <section class="section">
+        <h1 class="title is-1 centered">Participants</h1>
+
+        <div class="container is-flex-direction-column is-flex">
             <div class="centered container">
-                <p class="is-size-3 my-4">Signed up so far:</p>
+                <p class="is-size-3 my-4">Definitely participating:</p>
                 <p class="is-size-5 my-2">Daniel H.</p>
                 <p class="is-size-5 my-2">Jim B.</p>
                 <p class="is-size-5 my-2">Peter H.</p>
                 <p class="is-size-5 my-2">Ryan M.</p>
+
+                <p class="is-size-3 my-4">Maybe participating:</p>
+                <p class="is-size-5 my-2">aaa</p>
             </div>
         </div>
     </section>
