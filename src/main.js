@@ -44,7 +44,7 @@ function updateCountdown(timestamp, {
     seconds.innerText = secondsN;
 }
 
-createCountdown(new Date(2022, 4, 1, 1).valueOf(), {
+createCountdown(new Date(2022, 4, 7, 7).valueOf(), {
     days: "#cd-days",
     hours: "#cd-hours",
     minutes: "#cd-minutes",
