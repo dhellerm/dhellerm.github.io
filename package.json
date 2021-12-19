@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/dhellerm/dhellerm.github.io#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-purgecss": "^3.0.0",
+    "sass": "^1.45.0"
   },
   "dependencies": {
-    "bulma": "^0.9.2"
+    "bulma": "^0.9.3"
   }
 }

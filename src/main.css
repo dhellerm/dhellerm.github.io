@@ -1,3 +1,30 @@
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("fonts/JosefinSans-Regular.woff2") format("woff2"),
+         url("fonts/JosefinSans-Regular.ttf") format("truetype"),
+         url("fonts/JosefinSans-Regular.eot") format("embedded-opentype");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("fonts/JosefinSans-SemiBold.woff2") format("woff2"),
+         url("fonts/JosefinSans-SemiBold.ttf") format("truetype"),
+         url("fonts/JosefinSans-SemiBold.eot") format("embedded-opentype");
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("fonts/JosefinSans-Bold.woff2") format("woff2"),
+         url("fonts/JosefinSans-Bold.ttf") format("truetype"),
+         url("fonts/JosefinSans-Bold.eot") format("embedded-opentype");
+    font-weight: 700;
+    font-display: swap;
+}
+
 * {
     font-family: "Josefin Sans", "Arial", sans-serif;
 }
@@ -37,3 +64,21 @@ html {
 .width-40 {
     width: 40%;
 }
+
+.larger-checkbox {
+    zoom: 2;
+    transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    -moz-transform: scale(2);
+    transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+  }
+
+  .navbar-item {
+      font-size: 1.5rem;
+  }
