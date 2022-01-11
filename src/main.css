@@ -82,3 +82,17 @@ html {
   .navbar-item {
       font-size: 1.5rem;
   }
+
+  .field-phone {
+      position: absolute;
+      width: 0;
+      height: 0;
+      margin: 0 0;
+      padding: 0 0;
+      border: none;
+      outline: none;
+  }
+
+  .label-phone {
+      font-size: 0;
+  }
