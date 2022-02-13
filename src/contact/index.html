@@ -85,7 +85,8 @@
         <div class="container">
             <h1 class="title is-1 centered">Sign Up</h1>
 
-            <form name="signup" method="POST" netlify action="/form-success" class="mx-2" netlify-honeypot="ormel">
+            <form name="signup" method="POST" netlify action="/form-success" class="mx-2" netlify-honeypot="ormel"
+                data-netlify-recatpcha="true">
 
                 <div class="field">
                     <label class="label is-large">I will...</label>
@@ -132,16 +133,20 @@
                     </div>
                 </div>
 
-                <div class="field field-ormel">
-                    <label class="label label-ormel">My ormel is...</label>
+                <div class="field">
+                    <label class="label is-large">Do not fill in the
+                        following: (robot trap)</label>
 
-                    <div class="control is-medium field-ormel">
-                        <input class="input width-40 field-ormel" type="text" placeholder="Ormel" name="ormel">
+                    <div class="control is-medium">
+                        <input class="input width-40" type="text" placeholder="Ormel" name="ormel">
                     </div>
                 </div>
 
-                <input class="button my-6 is-large" type="submit" value="Submit">
+                <div class="field">
+                    <div data-netlify-recaptcha="true"></div>
+                </div>
 
+                <input class="button my-6 is-large" type="submit" value="Submit">
             </form>
         </div>
     </section>
