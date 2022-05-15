@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Josefin Sans";
     src: url("fonts/JosefinSans-Regular.woff2") format("woff2"),
-         url("fonts/JosefinSans-Regular.ttf") format("truetype"),
-         url("fonts/JosefinSans-Regular.eot") format("embedded-opentype");
+        url("fonts/JosefinSans-Regular.ttf") format("truetype"),
+        url("fonts/JosefinSans-Regular.eot") format("embedded-opentype");
     font-weight: 400;
     font-display: swap;
 }
@@ -10,8 +10,8 @@
 @font-face {
     font-family: "Josefin Sans";
     src: url("fonts/JosefinSans-SemiBold.woff2") format("woff2"),
-         url("fonts/JosefinSans-SemiBold.ttf") format("truetype"),
-         url("fonts/JosefinSans-SemiBold.eot") format("embedded-opentype");
+        url("fonts/JosefinSans-SemiBold.ttf") format("truetype"),
+        url("fonts/JosefinSans-SemiBold.eot") format("embedded-opentype");
     font-weight: 600;
     font-display: swap;
 }
@@ -19,8 +19,8 @@
 @font-face {
     font-family: "Josefin Sans";
     src: url("fonts/JosefinSans-Bold.woff2") format("woff2"),
-         url("fonts/JosefinSans-Bold.ttf") format("truetype"),
-         url("fonts/JosefinSans-Bold.eot") format("embedded-opentype");
+        url("fonts/JosefinSans-Bold.ttf") format("truetype"),
+        url("fonts/JosefinSans-Bold.eot") format("embedded-opentype");
     font-weight: 700;
     font-display: swap;
 }
@@ -46,11 +46,15 @@ html {
 }
 
 .is-active {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .navbar-item:hover {
     font-weight: bold;
+}
+
+.navbar-item:not(:hover) {
+    font-weight: 400;
 }
 
 .hgt-5 {
@@ -81,4 +85,13 @@ html {
 
 .navbar-item {
     font-size: 1.5rem;
+}
+
+.is-last {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.is-full-w {
+    width: 100%;
 }
